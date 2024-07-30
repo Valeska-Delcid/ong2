@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de tu página</title>
+    <!-- Enlace opcional a tu archivo CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Enlace a una biblioteca de iconos (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Blueberry, sans-serif;
+            background-image: url('C:\Users\alexa\Downloads\background-of-dog-paw-prints-vector.jpg'); /* URL de tu imagen de fondo */
+            background-size: cover;
+            background-position: center;
+        }
+        /* Estilos en línea para el ejemplo */
+        header {
+            background-color: #BAE4FF; /* Color de fondo del encabezado */
+            color: #000000; /* Color del texto del encabezado */
+            padding: 20px; /* Espaciado interno del encabezado */
+            display: flex; /* Para alinear elementos horizontalmente */
+            justify-content: space-between; /* Espacio entre elementos */
+            align-items: center; /* Centrar verticalmente */
+        }
+        header h1 {
+            font-family: 'Times New Roman', cursive; /* Cambia la fuente */
+            font-size: 40px; /* Tamaño de la fuente */
+            margin: 0; /* Elimina el margen para centrar mejor */
+            text-align: center; /* Alineación centrada */
+        }
+        header img {
+            width: 150px; /* Ancho del logo */
+            height: auto; /* Altura automática para mantener la proporción */
+        }
+        nav ul {
+            list-style-type: none; /* Quitar viñetas de la lista */
+            padding: 0;
+            margin: 0;
+            display: flex; /* Alinear elementos horizontalmente */
+        }
+        nav ul li {
+            margin-right: 20px; /* Espacio entre elementos */
+        }
+        nav ul li a {
+            color: white; /* Color del texto del enlace */
+            text-decoration: none; /* Quitar subrayado del enlace */
+            padding: 10px 15px; /* Añadir espacio alrededor del texto */
+            border-radius: 5px; /* Añadir esquinas redondeadas */
+            transition: background-color 0.3s; /* Transición suave */
+        }
+        nav ul li a:hover {
+            background-color: #555; /* Cambiar el color de fondo al pasar el mouse */
+        }
+        .search-form {
+            display: flex;
+            align-items: center;
+        }
+        .search-form input[type="text"] {
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .search-form button {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #555;
+            color: white;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #ABDBFA; /* Color de fondo del pie de página */
+            color: white; /* Color del texto del pie de página */
+            padding: 10px 20px; /* Espaciado interno del pie de página */
+            text-align: center; /* Alineación centrada */
+        }
+        footer p {
+            margin-bottom: 10px; /* Espacio inferior */
+        }
+        .social-media {
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            border: 2px solid white;
+            padding: 8px;
+            border-radius: 50%;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-media a:hover {
+            background-color: white;
+            color: #9370DB;
+        }
+
+        .social-media img {
+            width: 20px;
+            height: 20px;
+        }
+
+
+        .centered-text {
+            text-align: center;
+            margin: 50px auto;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-social {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .footer-social .social-media {
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenidos a LCA</h1>
+    <img src="https://i.pinimg.com/736x/ac/2f/10/ac2f10469ec315f6c261c81f7d02034a.jpg" alt="Logo de tu empresa">
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+                <li><a href="CONOCENOS.html">Conocenos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contactanos</a></li>
+                <li><a href="donaciones.html">Donaciones</a></li>
+        </ul>
+    </nav>
+    <div class="search-form">
+        <input type="text" placeholder="Buscar...">
+        <button type="submit"><i class="fas fa-search"></i></button>
+    </div>
+</header>
+
+<main>
+            
+   }
+    <section>
+        <h2>Nuestros Servicios</h2>
+        <ul class="servicios-lista">
+            <li>
+                <h3>Cuidado Veterinario</h3>
+                <img src="https://i.pinimg.com/736x/64/fe/f9/64fef9247cff58cfb120356ba8352f18.jpg" alt="Cuidado Veterinario">
+                <p>Ofrecemos servicios de cuidado veterinario completo, incluyendo exámenes regulares, vacunas, diagnósticos y tratamientos.</p>
+            </li>
+            <li>
+                <h3>Peluquería y Estilismo</h3>
+                <img src="https://i.pinimg.com/736x/a1/5f/08/a15f0866024c7809560c9a11df230bec.jpg" alt="Peluquería y Estilismo">
+                <p>Nuestro equipo de estilistas expertos se encarga de mantener a tu mascota con un aspecto impecable.</p>
+            </li>
+            <li>
+                <h3>Entrenamiento Personalizado</h3>
+                <img src="https://i.pinimg.com/736x/c4/c8/d2/c4c8d27b64295e603763c08b1ff217a8.jpg" alt="Entrenamiento Personalizado">
+                <p>Ofrecemos programas de entrenamiento adaptados a las necesidades individuales de cada mascota y su familia.</p>
+            </li>
+            <!-- Agrega más servicios aquí -->
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Mi Sitio Web.</p>
+    <div class="footer-social">
+        <div class="social-media">
+              <a href="https://m.facebook.com/profile.php?mibextid=LQQJ4d" target="_blank"><img src="https://i.pinimg.com/736x/fe/3d/bd/fe3dbdbc787b893a114eef7b62a4b538.jpg" alt="Facebook"></a>
+            <a href="https://x.com/aledelcid__?s=21" target="_blank"><img src="https://i.pinimg.com/736x/43/be/23/43be23e22dea0a57ab2fd353b050595e.jpg"></a>
+            <a href="https://www.instagram.com/ong_lca?igsh=M2tqamt0bTJ4YW1q&utm_source=qr="_blank"><img src="https://i.pinimg.com/736x/e6/ab/19/e6ab196eb69152dfe423d55a85e9289f.jpg" alt="Instagram"></a>
+
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
